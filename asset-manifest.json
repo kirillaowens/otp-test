@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/otp-test/static/css/main.ae48619e.css",
+    "main.js": "/otp-test/static/js/main.fa10d8de.js",
+    "index.html": "/otp-test/index.html",
+    "main.ae48619e.css.map": "/otp-test/static/css/main.ae48619e.css.map",
+    "main.fa10d8de.js.map": "/otp-test/static/js/main.fa10d8de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae48619e.css",
+    "static/js/main.fa10d8de.js"
+  ]
+}
