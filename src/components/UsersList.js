@@ -27,15 +27,15 @@ const UsersList = () => {
       {status === 'failed' && <p className="error">Ошибка: {error}</p>}
 
       <ul className="users-list">
-        {users.map((user, index) => (
-          <li key={index} className="user-card">
+        {users.map((user) => (
+          <li key={user.email} className="user-card">
             <span>{user.name}</span>
             <span>{user.email}</span>
           </li>
         ))}
       </ul>
 
-      {addUserStatus === 'loading' && <p className="loading">Загрузка...</p>}
+      {addUserStatus === 'loading' && <p className="loading">Добавление пользователя...</p>}
       
       <button onClick={handleAddUser} disabled={addUserStatus === 'loading'}>
         ➕ Добавить пользователя
